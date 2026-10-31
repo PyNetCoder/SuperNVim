@@ -1,0 +1,7 @@
+vim.keymap.set({ "i", "n", "v" }, "<C-s><C-q>", function()
+  vim.cmd("wq!")
+end, { desc = "Save and Quit" })
+vim.keymap.set("v", "<C-S-Up>", ":m '<-2<CR>gv=gv", { desc = "Move selected lines up" })
+vim.keymap.set("v", "<C-S-Down>", ":m '>+1<CR>gv=gv", { desc = "Move selected lines down" })
+vim.keymap.set("v", "<C-S-Right>", ">gv", { desc = "Indent selected lines right" })
+vim.keymap.set("v", "<C-S-Left>", "<gv", { desc = "Indent selected lines left" })
