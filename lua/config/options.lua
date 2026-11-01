@@ -1,3 +1,4 @@
+-- This code is modified from the original version
 vim.opt.guicursor = "a:ver25-blinkon200-blinkoff200"
 vim.opt.relativenumber = false
 vim.opt.number = true

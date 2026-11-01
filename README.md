@@ -22,7 +22,7 @@ Out of the box, `SuperNVim` provides comprehensive auto-completion, linting, err
 
 ### PowerShell (Windows)
 ```powershell
-\$repoUrl = "https://github.com"
+\$repoUrl = "https://github.com/PyNetCoder/SuperNVim.git"
 nvimPath = "env:LOCALAPPDATA\nvim"
 nvimDataPath = "env:LOCALAPPDATA\nvim-data"
 nvimBak = "env:LOCALAPPDATA\nvim.bak"
@@ -45,7 +45,7 @@ Start-Process -FilePath "nvim" -NoNewWindow
 
 ### Bash (Linux)
 ```bash
-repoUrl="https://github.com"
+repoUrl="https://github.com/PyNetCoder/SuperNVim.git"
 nvimPath="\$HOME/.config/nvim"
 nvimDataPath="\$HOME/.local/share/nvim"
 if [ -d "\$nvimPath" ]; then

@@ -1,3 +1,4 @@
+-- This code is modified from the original version
 vim.keymap.set({ "i", "n", "v" }, "<C-s><C-q>", function()
   vim.cmd("wq!")
 end, { desc = "Save and Quit" })
